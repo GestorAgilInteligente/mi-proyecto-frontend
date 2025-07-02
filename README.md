@@ -78,11 +78,11 @@ Accede desde: http://localhost:5173
 📂 Documentación del Proyecto
 El equipo está organizando la documentación en Google Drive con:
 
+Objetivos y justificación
 Historias de usuario
 Análisis del problema
 Diagrama entidad-relación
 Casos de uso
-Objetivos y justificación
 Próximamente serán subidos a este repositorio en la carpeta /docs.
 
 👥 Equipo de Trabajo
