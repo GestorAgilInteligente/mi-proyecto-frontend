@@ -1,20 +1,28 @@
 // src/routes.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import RegistroColaborador from "./pages/RegistroColaborador";
+import RegistroColaborador from "./pages/RegisterCollaborator";
 import Proyectos from "./pages/Proyectos";
 import Colaborador from "./pages/Colaborador";
-import ProyectoDetalle from './pages/ProyectoDetalle';
+import ProyectoDetalle from "./pages/ProyectoDetalle";
+import Layout from "./components/Layout"; // nuevo componente para navegación entre paginas
 
 export default function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
+
+        {/* Ruta SIN layout */}
         <Route path="/" element={<Login />} />
-        <Route path="/registro" element={<RegistroColaborador />} />
-        <Route path="/proyectos" element={<Proyectos />} />
-         <Route path="/colaborador" element={<Colaborador />} />
-         <Route path="/proyecto/:id" element={<ProyectoDetalle />} />
+
+        {/* Rutas CON layout (Navbar + contenido) */}
+        <Route element={<Layout />}>
+          <Route path="/registro" element={<RegistroColaborador />} />
+          <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/colaborador" element={<Colaborador />} />
+          <Route path="/proyecto/:id" element={<ProyectoDetalle />} />
+        </Route>
+
       </Routes>
     </BrowserRouter>
   );
