@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppRouter from './routes'; // linea actualizada para prueba.
-import './index.css'; // esta es la línea que activa Tailwind
+import AppRouter from './routes'; // carga las rutas directamente
+import './index.css'; // activa los estilos de Tailwind
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AppRouter /> // linea actualziada para prueba
+    <AppRouter />
   </React.StrictMode>
 );
