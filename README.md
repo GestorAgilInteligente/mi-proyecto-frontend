@@ -44,18 +44,31 @@ Desarrollar un prototipo funcional del frontend de una plataforma de gestión de
 
 ## 🏗️ Estructura del Proyecto
 
-/src
-┣ /pages
-┃ ┣ Login.jsx
-┃ ┣ RegistroColaborador.jsx
-┃ ┣ Proyectos.jsx
-┃ ┣ Colaborador.jsx
-┃ ┗ ProyectoDetalle.jsx
-┣ /components (pendiente)
-┣ App.jsx
-┣ main.jsx
-┣ index.css
-routes.jsx
+A continuación se presenta la organización de carpetas y archivos desarrollados con React y Tailwind CSS:  
+
+/mi-proyecto-frontend
+├── public/
+│   └── index.html                  # Archivo base HTML
+├── src/
+│   ├── assets/                     # Recursos estáticos (imágenes, logos, etc.)
+│   ├── components/                 # Componentes reutilizables
+│   │   ├── Navbar.jsx              # Barra de navegación principal
+│   │   └── CardProyecto.jsx        # Tarjeta de vista de proyecto
+│   ├── pages/                      # Páginas del sistema
+│   │   ├── Login.jsx               # Vista de inicio de sesión
+│   │   ├── RegistroColaborador.jsx # Formulario de registro de colaborador
+│   │   ├── VistaProyectos.jsx      # Vista general de proyectos y asignaciones
+│   │   └── VistaColaborador.jsx    # Perfil y competencias del colaborador
+│   ├── routes.jsx                  # Enrutamiento entre vistas
+│   ├── AppRouter.jsx               # Encapsula las rutas en la aplicación
+│   ├── main.jsx                    # Punto de entrada de React
+│   └── index.css                   # Estilos base con Tailwind
+├── tailwind.config.cjs             # Configuración de Tailwind
+├── postcss.config.cjs              # Configuración de PostCSS
+├── vite.config.js                  # Configuración de Vite
+├── package.json                    # Dependencias del proyecto
+└── README.md                       # Este archivo con descripción del proyecto
+
 
 ---
 
