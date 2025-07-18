@@ -1,3 +1,4 @@
+// Simulación: funcionalidad de registro de usuario
 export default function RegisterCollaborator() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-yellow-100 flex items-center justify-center p-4">
