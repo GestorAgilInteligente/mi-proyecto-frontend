@@ -42,6 +42,15 @@ export default function RegisterCollaborator() {
             <input type="text" className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Ej: 50% o del 5 al 30 julio" />
           </div>
 
+          <div className="flex flex-col">
+            <label className="text-sm text-gray-600 mb-1">Teléfono</label>
+            <input
+              type="tel"
+              className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              placeholder="Ej: 3001234567"
+          />
+        </div>
+
           <button
             type="submit"
             className="w-full bg-blue-500 text-white font-bold py-2 rounded hover:bg-green-600 transition"
