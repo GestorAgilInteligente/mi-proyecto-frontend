@@ -55,7 +55,7 @@ export default function RegisterCollaborator() {
             type="submit"
             className="w-full bg-blue-500 text-white font-bold py-2 rounded hover:bg-green-600 transition"
           >
-            Ingresar
+            Registrar Colaborador
           </button>
         </form>
       </div>
