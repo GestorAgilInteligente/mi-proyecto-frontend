@@ -70,7 +70,7 @@ export default function ProyectoDetalle() {
 
       {/* Lista de colaboradores */}
       <div className="mt-6">
-        <h2 className="text-lg font-bold mb-3">Colaboradores Asignados</h2>
+        <h2 className="text-lg font-bold mb-3">Integrantes del proyecto</h2>
         <ul className="space-y-2">
           {datosMock.colaboradores.map((colab, idx) => (
             <li key={idx} className="border p-3 rounded-md flex justify-between items-center">
