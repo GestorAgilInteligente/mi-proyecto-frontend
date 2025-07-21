@@ -9,6 +9,7 @@ export default function Navbar() {
         <Link to="/" className="hover:underline">Login</Link>
         <Link to="/registro" className="hover:underline">Registro Colaborador</Link>
         <Link to="/proyectos" className="hover:underline">Proyectos</Link>
+        <Link to="/crear-tarea" className="hover:underline">Crear tarea</Link>
         <Link to="/colaborador" className="hover:underline">Colaborador</Link>
         <Link to="/registroproyecto" className="hover:underline">Registro Proyecto</Link>
       </div>
