@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import RegistroColaborador from "./pages/RegisterCollaborator";
+import RegisterTask from "./pages/RegisterTask";
 import Proyectos from "./pages/Proyectos";
 import Colaborador from "./pages/Colaborador";
 import ProyectoDetalle from "./pages/ProyectoDetalle";
@@ -21,6 +22,7 @@ export default function AppRouter() {
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/colaborador" element={<Colaborador />} />
           <Route path="/proyecto/:id" element={<ProyectoDetalle />} />
+          <Route path="/crear-tarea" element={<RegisterTask />} />
         </Route>
 
       </Routes>
