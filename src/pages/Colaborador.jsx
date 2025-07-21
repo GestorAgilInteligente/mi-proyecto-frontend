@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
+import axios from "../api/axios";
+
 
 export default function Colaborador() {
   const { id } = useParams(); // Simulado
