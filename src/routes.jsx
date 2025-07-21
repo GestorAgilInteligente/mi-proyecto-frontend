@@ -8,6 +8,7 @@ import Colaborador from "./pages/Colaborador";
 import ProyectoDetalle from "./pages/ProyectoDetalle";
 import RegistroProyecto from "./pages/RegisterProyectos";
 import Layout from "./components/Layout"; // nuevo componente para navegación entre paginas
+import IASuggestion from "./pages/IASuggestion";
 
 export default function AppRouter() {
   return (
@@ -25,6 +26,7 @@ export default function AppRouter() {
           <Route path="/proyecto/:id" element={<ProyectoDetalle />} />
           <Route path="/crear-tarea" element={<RegisterTask />} />
           <Route path="/registroproyecto" element={<RegistroProyecto />} />
+          <Route path="/ia-suggestion" element={<IASuggestion />} />
         </Route>
 
       </Routes>
