@@ -131,6 +131,7 @@ export default function RegisterCollaborator() {
           <div className="flex flex-col">
             <label className="text-sm text-gray-600 mb-1">Rol</label>
             <select
+              className="border border-gray-300 rounded-md px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
               value={formulario.roles[0] || ""}
               onChange={(e) =>
                 setFormulario({ ...formulario, roles: [e.target.value] })
@@ -150,6 +151,7 @@ export default function RegisterCollaborator() {
               tiempo contratado
             </label>
             <select
+              className="border border-gray-300 rounded-md px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
               value={formulario.contracted_time}
               onChange={(e) =>
                 setFormulario({
