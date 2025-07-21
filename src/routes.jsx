@@ -5,6 +5,7 @@ import RegistroColaborador from "./pages/RegisterCollaborator";
 import Proyectos from "./pages/Proyectos";
 import Colaborador from "./pages/Colaborador";
 import ProyectoDetalle from "./pages/ProyectoDetalle";
+import RegistroProyecto from "./pages/RegisterProyectos";
 import Layout from "./components/Layout"; // nuevo componente para navegación entre paginas
 
 export default function AppRouter() {
@@ -21,6 +22,7 @@ export default function AppRouter() {
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/colaborador" element={<Colaborador />} />
           <Route path="/proyecto/:id" element={<ProyectoDetalle />} />
+          <Route path="/registroproyecto" element={<RegistroProyecto />} />
         </Route>
 
       </Routes>

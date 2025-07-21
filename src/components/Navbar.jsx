@@ -7,9 +7,10 @@ export default function Navbar() {
       <h1 className="font-bold text-lg">CodeTrack</h1>
       <div className="space-x-4">
         <Link to="/" className="hover:underline">Login</Link>
-        <Link to="/registro" className="hover:underline">Registro</Link>
+        <Link to="/registro" className="hover:underline">Registro Colaborador</Link>
         <Link to="/proyectos" className="hover:underline">Proyectos</Link>
         <Link to="/colaborador" className="hover:underline">Colaborador</Link>
+        <Link to="/registroproyecto" className="hover:underline">Registro Proyecto</Link>
       </div>
     </nav>
   );
